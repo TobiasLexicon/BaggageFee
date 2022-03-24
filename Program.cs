@@ -15,13 +15,13 @@ namespace BaggageFee
 
         static void Main(string[] args)
         {
-            int weight = CheckBaggage();
-            int excessWeight = GetExcessWeight(weight);
-            int feeToPay = ComputeAdditionalFee(excessWeight);
+            //int weight = CheckBaggage();
+            //int excessWeight = GetExcessWeight(weight);
+            //int feeToPay = ComputeAdditionalFee(excessWeight);
 
-            int additionalFee2 = ComputeAdditionalFee(GetExcessWeight(CheckBaggage()));
+            //int additionalFee2 = ComputeAdditionalFee(GetExcessWeight(CheckBaggage()));
 
-            int additionalFee = CheckBaggage()
+            int feeToPay = CheckBaggage()
                 .GetExcessWeight()
                 .ComputeAdditionalFee();
 
